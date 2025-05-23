@@ -1,0 +1,251 @@
+/* applies to whole document ................................................*/
+
+html{
+    font-size:16px;
+}
+
+*{
+    box-sizing:border-box;
+    text-align:center;
+    text-decoration: none;
+}
+
+body{
+    background-color : #ffffff;
+    margin:2vh 0 0;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+/* font choices............................................................. */
+
+h1,h2,h3{
+    font-family: 'Abril Fatface', serif;
+    color:#EA5F5C;
+}
+
+h1{
+    font-size: 10rem ;
+    letter-spacing: .2rem;
+}
+
+h2{
+    font-size: 5rem;
+    letter-spacing: .2rem;
+}
+
+h3{
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+
+h4{
+    font-family: 'Cabin', sans-serif;
+    color:#80807a;
+}
+
+p{
+    font-family: 'Cabin', sans-serif;
+    color:#1E1E1B;
+}
+
+.text{
+    width:65%;
+}
+
+/* index page ................................................................*/
+
+.container{
+    
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    width: 75%;
+    display:flex;
+}
+
+#LandingPage{
+    margin-top: 5vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#LogoThatChanges{
+    width:50rem;
+    height:30rem;
+    background-image:url(../images/WebsiteAssets/Logo/Eco-Bot\ Logo\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+#LogoThatChanges:hover{
+    background-image:url(../images/WebsiteAssets/Logo/Eco-Bot\ Logo\ 2.svg);
+}
+
+.title1{
+    background-image:url(../images/WebsiteAssets/Underline/Underline1.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 0rem 20rem;
+    margin-top: -5rem;
+}
+
+
+#About{
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    display:flex;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.title2{
+    background-image:url(../images/WebsiteAssets/Underline/Underline3.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0rem 10rem;
+}
+
+#ProjectsPage{
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    display:flex;
+    gap:2rem;
+}
+
+.DisplayGrid{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    display:grid;
+    gap:10rem;
+}
+
+.ProjectCard{
+    background-image:url(../images/WebsiteAssets/ProjectScroll/Flair-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0rem 18rem;
+}
+
+.ProjectCard:hover{
+    width:105%;
+    background-image:url(../images/WebsiteAssets/ProjectScroll/Flair-2.svg);
+    background-position: 0rem 16rem;
+}
+
+.ProjectCardImage{
+    width:70%;
+    background-image: url(../images/WebsiteAssets/ProjectScroll/BackCircle.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.title3{
+    background-image:url(../images/WebsiteAssets/Underline/Underline4.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 0rem 10rem;
+}
+
+.footer{
+    width:100%;
+    height:5rem;
+    background-color : whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:1rem;
+    margin-top: 25vh;
+}
+
+/* Project pages............................................................. */
+.ProjectImage{
+    max-height: 50vh;
+}
+
+.title4,.title4-1{
+    background-image:url(../images/WebsiteAssets/Underline/Underline4.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.title4-1{
+    height:12rem;
+}
+
+#LogoThatChangesHome{
+    width:30rem;
+    height:20rem;
+    background-image:url(../images/WebsiteAssets/Logo/Eco-Bot\ Logo\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+#LogoThatChangesHome:hover{
+    background-image:url(../images/WebsiteAssets/Logo/Logo-Back.svg);
+}
+
+.ProjectContainer{
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    width: 75%;
+    display:flex;
+
+}
+
+/* Responsive web design .........................................................................*/
+
+@media screen and (max-width: 1100px) {
+
+    .DisplayGrid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #LogoThatChanges{
+        width:40rem;
+        height:25rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .DisplayGrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap:4rem;
+    }
+
+    #LogoThatChanges{
+        width:30rem;
+        height:18rem;
+    }
+
+    .title1{
+        background-size: 100%;
+        background-position: 0rem 33rem;
+    }
+}
+
+
+
+
+/* 
+eco-bot colours
+#F3F2CF - beige
+#1E1E1B - black
+#EA5F5C - pinky red
+#75852D - olive
+#FFE143 - yellow
+*/
