@@ -22,7 +22,7 @@ body{
 
 h1,h2,h3{
     font-family: 'Abril Fatface', serif;
-    color:#EA5F5C;
+    color:#ff0400;
 }
 
 h1{
@@ -61,7 +61,7 @@ p{
     justify-content: flex-start;
     align-items:center;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
     display:flex;
 }
 
@@ -74,18 +74,6 @@ p{
     gap: 5px;
 }
 
-#LogoThatChanges{
-    width:50rem;
-    height:30rem;
-    background-image:url(../images/WebsiteAssets/Logo/Eco-Bot\ Logo\ 1.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0rem 0rem;
-}
-
-#LogoThatChanges:hover{
-    background-image:url(../images/WebsiteAssets/Logo/Eco-Bot\ Logo\ 2.svg);
-}
 
 .title1{
     background-image:url(../images/WebsiteAssets/Underline/Underline1.svg);
@@ -237,15 +225,3 @@ p{
         background-position: 0rem 33rem;
     }
 }
-
-
-
-
-/* 
-eco-bot colours
-#F3F2CF - beige
-#1E1E1B - black
-#EA5F5C - pinky red
-#75852D - olive
-#FFE143 - yellow
-*/
