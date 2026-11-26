@@ -20,34 +20,9 @@ body{
 
 /* font choices............................................................. */
 
-h1,h2,h3{
+h1,h2,h3,p{
     font-family: 'Abril Fatface', serif;
-    color:#ff0400;
-}
-
-h1{
-    font-size: 10rem ;
-    letter-spacing: .2rem;
-}
-
-h2{
-    font-size: 5rem;
-    letter-spacing: .2rem;
-}
-
-h3{
-    font-size: 2rem;
-    letter-spacing: .2rem;
-}
-
-h4{
-    font-family: 'Cabin', sans-serif;
-    color:#80807a;
-}
-
-p{
-    font-family: 'Cabin', sans-serif;
-    color:#1E1E1B;
+    color:#000000;
 }
 
 .text{
@@ -142,10 +117,21 @@ p{
     background-position: 0rem 10rem;
 }
 
+.header{
+    width:100%;
+    height:5rem;
+    background-color : rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:1rem;
+    margin-top: 25vh;
+}
+
 .footer{
     width:100%;
     height:5rem;
-    background-color : whitesmoke;
+    background-color : rgb(0, 0, 0);
     display:flex;
     justify-content: center;
     align-items:center;
